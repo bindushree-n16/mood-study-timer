@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood-Based Study Timer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>🎧 Mood-Based Study Timer</h1>
+
+  <label for="mood-select">Select Your Mood:</label>
+  <select id="mood-select">    <option value="sad">😢 Sad</option>
+
+    <option value="happy">😊 Happy</option>
+    <option value="bored">😐 Bored</option>
+    <option value="tired">😴 Tired</option>
+    <option value="energetic">😎 Energetic</option>
+  </select>
+
+  <button onclick="startSession()">Start Study Session</button>
+
+  <h2 id="suggestion"></h2>
+
+  <div id="timer">00:00</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
